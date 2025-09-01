@@ -24,10 +24,7 @@ pinout:
   ui[5]: "x1[1]"  # ui_in[5], bit 1 of second input
   ui[6]: "x1[2]"  # ui_in[6], bit 2 of second input
   ui[7]: "x1[3]"  # ui_in[7], bit 3 of second input
-  # Control inputs
-  clk: "CLK"      # Clock input
-  rst_n: "RST_N"  # Active-low reset
-  ena: "ENA"      # Enable signal
+
 
   # Outputs
   uo[0]: "y_reg"  # uo_out[0], perceptron output (sign bit)
