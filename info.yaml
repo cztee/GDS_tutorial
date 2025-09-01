@@ -25,6 +25,11 @@ pinout:
   ui[6]: "IN6"
   ui[7]: "IN7"
 
+  # Control inputs
+  ena: "ENA"    # Enable signal, connected to slide switch (sw2)
+  rst_n: "RST_N"  # Active-low reset, connected to pushbutton (btn2)
+  clk: "CLK"    # Clock input, connected to clock generator (clock1)
+
   # Outputs
   uo[0]: "OUT0"
   uo[1]: "OUT1"
